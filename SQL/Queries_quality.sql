@@ -1,5 +1,4 @@
 -- Rutime: 304ms | Beats: 93.32% (Depending on Connection)
-
 SELECT 
     query_name, 
     ROUND(SUM(COALESCE(rating, 0) / COALESCE(position, 1)) / COUNT(query_name), 2) AS quality,
