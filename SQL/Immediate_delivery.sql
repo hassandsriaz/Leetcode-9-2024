@@ -1,3 +1,4 @@
+-- Rutime: 530ms | Beats: 88.80% (Depending on Connection) 
 WITH first_orders AS (
     SELECT customer_id, MIN(order_date) AS first_order_date
     FROM delivery
