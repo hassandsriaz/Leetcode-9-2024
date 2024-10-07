@@ -6,3 +6,6 @@ OR employee_id NOT IN (
     FROM Employee 
     WHERE primary_flag = 'Y'
 );
+
+
+
