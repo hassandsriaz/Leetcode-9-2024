@@ -1,4 +1,6 @@
 -- Rutime: 410ms | Beats: 99.22% (Depending on Connection)
+
+
 SELECT 
     project_id, 
     ROUND(SUM(e.experience_years) / COUNT(project_id), 2) AS average_years 
